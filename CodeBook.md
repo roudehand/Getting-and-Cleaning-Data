@@ -1,4 +1,4 @@
-# Dscription of the script 
+# Description of the script 
 
 run_analysis.r is a script that does the steps required int he final course project of Gettingand Cleaning Data (see Readme)
 
