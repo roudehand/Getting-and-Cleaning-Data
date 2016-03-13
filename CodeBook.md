@@ -9,9 +9,10 @@ Also, column names are correct
 Finally, we generate a new dataset with all the average measures for each subject and activity type.
 
 # Description of the variables the script used
-- x_train, y_train, x_test, y_test, subject_train and subject_test: contain the data from the downloaded files.
-- x_data, y_data and subject_data: merge the previous datasets to further analysis.
-- Features: contains the correct names for the x_data dataset, which are applied to the column names stored in mean_and_std_features, a numeric vector used to extract the desired data.
-
-A similar approach is taken with activity names through the activities variable.
-- all_data merges x_data, y_data and subject_data in a big dataset.
+- xTrain, yTrain, activityType, subjectTrain, subjectTest: variables containing data from the downloaded files (e.g. subject_text.txt, features.txt,..)
+- finalTest: column binds all the Test variables
+- finalTraining: column binds all the Training variables
+- mergedData: rowbinds the combined Test and combined Training files
+- mergedData2: variable that selects only the std dev and mean from the mergedData
+- finalData: variable that uses mergedData2 and adds the activity names
+- tidyData: uses finalData, uses only mean
