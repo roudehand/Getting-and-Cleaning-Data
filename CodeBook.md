@@ -4,8 +4,8 @@ run_analysis.r is a script that does the steps required int he final course proj
 
 The training and test data in combined with rbind, lookg at columns with equal entities.
 The script uses only st dev and mean. Correct names are added, using features text file
-As activity data is addressed with values 1:6, we take the activity names and IDs from activity_labels.txt and they are substituted in the dataset.
-On the whole dataset, those columns with vague column names are corrected.
+Activity names and ID's are used from activity_labels.txt
+Also, column names are correct
 Finally, we generate a new dataset with all the average measures for each subject and activity type.
 
 # Description of the variables the script used
